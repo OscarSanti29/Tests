@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests</title>
+</head>
+<body>   
+    <h1>Tests</h1>
+    <div>
+        <h2>Multiply Tests</h2>
+    <ul>
+        <li>Expect Multiply(x*y) to create a product</li>
+        <li>Expect Multiply(5*2) to = 10</li>
+        <li>Expect Multiply("a"*2) to give an error</li>
+    </ul>
+    <ol>
+        <li>When user inputs 2 numbers it should multiply them and get a product</li>
+        <li>When user inputs more than 2 numbers it should multiply all the numbers together and get a product</li>
+        <li>When user inputs a string of letters it should give an error</li>
+        <li>When user inputs only 1 number it is multiplied by itself </li>
+        <li>When user inputs nothing it should give an error</li>
+    </ol>
+    </div>
+    <div>
+        <h2>concatOdds Tests</h2>
+    <ul>
+        <li>Expect concatOdds to take 2 arrays of numbers and make them into 1 array of odd numbers in ascending order</li>
+        <li>Expect code to recognize negative numbers</li>
+    </ul>
+    <ol>
+        <li>When user inputs repeated numbers in the arrays, the final array should only produce 1 number of those repeated</li>
+        <li>When user inputs a "string" or "letters", the final array will only input the numbers found within the "string/letters"</li>
+        <li>When user inputs numbers in the first 2 arrays, only odd numbers in a ascending order should result in the final array </li>
+        <li>When user inputs a "string" of numbers, it should convert that string into numbers</li>
+        <li>When user only inputs a "string" of letters, it should do nothing</li>
+    </ol>
+    </div>
+    <div>
+        <h2>ShoppingCart Tests</h2>
+        <h3>Functional Tests</h3>
+    <ul>
+        <li>
+            User clicks on shopping cart and is taken ,to checkout, prompt pops asking to either log in, sign up, or continue as guest.
+            If cart is empty it will still take them to check out but show that there is nothing in the cart.
+        </li><br>
+        <li>
+            If user selects "Log In", they will be prompted tp put in user name and password to their account.
+            If username is incorrect they will be prompted to try again, If password is incorrect they will be prompted to try again.
+        </li><br>
+        <li>
+            If user selects "Sign Up"m, they will be prompted to fill in the following information"First Name, Last name,Email adress and phone number". 
+            If user inputs a non-existing emali adress or phone number, they will be prompted to try again.
+        </li><br>
+        <li>
+            If user selects "Continue as guests", they will be prompted to put in their email only, if email does not exist, they will be prompted to try again.
+        </li>
+    </ul>
+    </div>
+</body>
+</html>
